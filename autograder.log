@@ -1,0 +1,119 @@
+2021-10-12 14:03:31,451 ERROR    Uncaught exception: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 953, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 719, in test_project
+    project.build()
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 677, in build
+    p.build(clear)
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 628, in build
+    run_command(['make'])
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 40, in run_command
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, encoding='latin-1')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-10-12 14:30:48,904 ERROR    Uncaught exception: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 953, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 719, in test_project
+    project.build()
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 677, in build
+    p.build(clear)
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 628, in build
+    run_command(['make'])
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 40, in run_command
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, encoding='latin-1')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-10-12 16:55:44,417 ERROR    Uncaught exception: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 953, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 719, in test_project
+    project.build()
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 677, in build
+    p.build(clear)
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 628, in build
+    run_command(['make'])
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 40, in run_command
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, encoding='latin-1')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-10-13 12:04:48,435 ERROR    Uncaught exception: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 953, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 719, in test_project
+    project.build()
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 677, in build
+    p.build(clear)
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 628, in build
+    run_command(['make'])
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 40, in run_command
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, encoding='latin-1')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-10-13 12:05:01,173 ERROR    Uncaught exception: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 953, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 719, in test_project
+    project.build()
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 677, in build
+    p.build(clear)
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 628, in build
+    run_command(['make'])
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 40, in run_command
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, encoding='latin-1')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-10-13 18:56:49,963 ERROR    Uncaught exception: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 953, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 719, in test_project
+    project.build()
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 677, in build
+    p.build(clear)
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 628, in build
+    run_command(['make'])
+  File "C:\Users\ironm\Downloads\cs250\pa1\autograde.py", line 40, in run_command
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, encoding='latin-1')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-10-16 16:33:41,892 ERROR    Uncaught exception: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\ironm\Downloads\cs211\pa1\autograde.py", line 953, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+  File "C:\Users\ironm\Downloads\cs211\pa1\autograde.py", line 719, in test_project
+    project.build()
+  File "C:\Users\ironm\Downloads\cs211\pa1\autograde.py", line 677, in build
+    p.build(clear)
+  File "C:\Users\ironm\Downloads\cs211\pa1\autograde.py", line 628, in build
+    run_command(['make'])
+  File "C:\Users\ironm\Downloads\cs211\pa1\autograde.py", line 40, in run_command
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, encoding='latin-1')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
