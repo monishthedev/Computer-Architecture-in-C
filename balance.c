@@ -1,7 +1,8 @@
 #include<stdio.h>
-#include<strings.h>
+#include<string.h>
 #include<stdlib.h>
 
+//classic push method
 void push(char stack[], char element, int *topStack) {
     stack[*topStack] = element;
     *topStack++;
@@ -10,7 +11,7 @@ void push(char stack[], char element, int *topStack) {
 char peekStack(char stack[], int *topStack) {
     return stack[*topStack--];
 }
-
+//classic pop method
 char pop(char stack[], int *topStack) {
     if (*topStack == 0) 
         // Stack is empty
@@ -19,16 +20,14 @@ char pop(char stack[], int *topStack) {
     char popVar = stack[*topStack];
     return popVar;
 }
-
+//checks for balance with popped val
 int checkCounter(char thisVal, char popVal) {
-    if ((thisVal == ')' && popVal == '(') || 
-        (thisVal == '}' && popVal == '{') ||
-        (thisVal == ']' && popVal == '[')){
+    if ((thisVal == ')' && popVal == '(') || (thisVal == '}' && popVal == '{') ||(thisVal == ']' && popVal == '[')){
         return 1;
     }
     return 0;
 }
-
+//record 
 char braceCounter(char brace) {
     if (brace == '('){
         return ')';
@@ -39,8 +38,7 @@ char braceCounter(char brace) {
     if (brace == '['){
         return ']';
     } 
-
-    printf("\nError in the input");
+    printf("\nThere is error in input");
     exit(0);
 }
 
